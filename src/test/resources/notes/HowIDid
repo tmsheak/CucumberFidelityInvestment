@@ -1,0 +1,20 @@
+Prepared By: Tarek
+**Login to GitHub and Create Repo: CucumberFidelityInvestment.
+Add a ReadMe File.
+Add .git ignore for java (.gitignore template.java)
+Create Repo
+Copy the code
+
+**Open Eclipse: File  Import  Import project from git  
+(Fill Url/URI)  Next  Next  (Select/Browse file location) 
+ Next  Import as a general project.
+ 
+**You will see: ReadMe File Only. Now Covert to Maven project.
+(To see the all variables and value: Run Run Configuration  Environment.)
+
+**Missing The following Source Folder in Maven Project:
+ src/main/java  and src/test/java
+Solution:
+Projects: Properties : Java Build Path : Library : JRE System Library : 
+Edit ==> Workspace Default JRE: Apply : Apply and Close> 
+Then  Do Maven Project Update --> It will update based on your dependencies.
